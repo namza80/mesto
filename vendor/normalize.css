@@ -157,7 +157,6 @@ img {
  * 2. Remove the margin in Firefox and Safari.
  */
 
-button,
 input,
 optgroup,
 select,
@@ -167,6 +166,13 @@ textarea {
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
 }
+
+button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent;
 
 /**
  * Show the overflow in IE.
