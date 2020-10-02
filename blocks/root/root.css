@@ -1,0 +1,20 @@
+.root {
+  font-family: 'Inter', 'Arial', sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  width: 69%;
+  margin: 0 auto;
+}
+
+@media (max-width: 1000px) {
+	.root {
+    width: 85%;
+	}
+}
+
+@media (max-width: 410px) {
+	.root {
+    width: 95%;
+	}
+}

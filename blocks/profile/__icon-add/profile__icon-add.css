@@ -1,0 +1,23 @@
+.profile__icon-add {
+  width: 22px;
+  padding: 14px 64px 14px 64px;
+  border: solid 2px #fff;
+  transition: 0.4s;
+}
+
+.profile__icon-add:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+	.profile__icon-add {
+    margin-top: 36px;
+	}
+}
+
+@media (max-width: 410px) {
+	.profile__icon-add {
+    padding: 14px 130px 14px 130px;
+	}
+}

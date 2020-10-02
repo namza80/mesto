@@ -1,0 +1,19 @@
+.profile__icon-edit {
+  width: 10px;
+  padding: 7px;
+  border: solid 1px #fff;
+  margin-left: 17px;
+  transition: 0.4s;
+}
+
+.profile__icon-edit:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+@media (max-width: 410px) {
+	.profile__icon-edit {
+    width: 8px;
+    padding: 5px;
+	}
+}

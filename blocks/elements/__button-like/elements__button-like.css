@@ -1,0 +1,8 @@
+.elements__button-like {
+  transition: 0.4s;
+}
+
+.elements__button-like:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}

@@ -1,0 +1,14 @@
+.elements__lst {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(282px, 1fr));
+  grid-gap: 18px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+@media (max-width: 705px) {
+	.elements__lst {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+	}
+}

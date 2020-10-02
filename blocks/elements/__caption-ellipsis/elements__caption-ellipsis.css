@@ -1,0 +1,7 @@
+.elements__caption-ellipsis {
+  margin: 0;
+  padding-bottom: 3px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}

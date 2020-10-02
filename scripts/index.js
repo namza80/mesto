@@ -17,7 +17,7 @@ let newJob = document.querySelector('.profile__subtitle')
 function addNewName() {
   let nameInput = document.querySelector('.popup__input-text_type_name')
   let jobInput = document.querySelector('.popup__input-text_type_job')
-newJob.textContent = jobInput.value
-newName.textContent = nameInput.value
+  newJob.textContent = jobInput.value
+  newName.textContent = nameInput.value
 }
 editSaveButton.addEventListener('click', addNewName)

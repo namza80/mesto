@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Проект 4: Место</title>
     <link rel="stylesheet" href="./pages/index.css">
-    <link rel="stylesheet" href="./style.css">
   </head>
   <body class="page">
     <div class="root">
@@ -16,12 +15,24 @@
       </header>
       <main class="content">
         <section class="profile">
-          <div class="profile__info">
+          <!-- <div class="profile__info">
             <img src="./images/custo.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
             <div class="profile__desc">
               <h1 class="profile__title">Жак-Ив Кусто<button class="profile__edit-btn"><img src="./images/icon-edit.svg" alt="Редактирование профиля" class="profile__icon-edit">
                 </button>
               </h1>
+              <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+            </div> -->
+          <div class="profile__info">
+            <img src="./images/custo.jpg" alt="Жак-Ив Кусто" class="profile__avatar">
+            <div class="profile__desc">
+              <div class="profile__name-edit">
+                <h1 class="profile__title">Жак-Ив Кусто</h1>
+                <button class="profile__edit-btn">
+                <img src="./images/icon-edit.svg" alt="Редактирование профиля" class="profile__icon-edit">
+                </button>
+              </div>
               <p class="profile__subtitle">Исследователь океана</p>
             </div>
           </div>
@@ -116,8 +127,8 @@
             <input type="text" placeholder="Исследователь океана" class="popup__input-text popup__input-text_type_job">
             <input type="submit" value="Сохранить" class="popup__input-btn popup__input-btn_action_add">
             <!-- <button type="submit" class="popup__input-btn popup__input-btn_action_add">
-            Сохранить
-            </button> -->
+              Сохранить
+              </button> -->
           </div>
         </div>
       </section>
