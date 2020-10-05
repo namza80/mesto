@@ -2,3 +2,11 @@
   width: 142px;
   min-height: 33px;
 }
+
+@media (max-width: 410px) {
+	.header__logo {
+    width: 104px;
+    min-height: 24px;
+    margin-left: 9px;
+}
+	}

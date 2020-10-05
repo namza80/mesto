@@ -9,12 +9,12 @@
 
 @media (max-width: 1000px) {
 	.root {
-    width: 85%;
+    width: 77%;
 	}
 }
 
 @media (max-width: 410px) {
 	.root {
-    width: 95%;
+    width: 86%;
 	}
 }
