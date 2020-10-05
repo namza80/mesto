@@ -36,7 +36,7 @@ function formSubmitHandler (evt) {
 
 formElement.addEventListener('submit', formSubmitHandler);
 
-// оставил для себя как пример, я ведь учусь)
+// оставил для себя как пример, я ведь учусь
 // addEventListener('submit', function() {
 //   buttonClosePopup.click();
 // });
