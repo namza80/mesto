@@ -44,4 +44,3 @@ buttonOpenPopup.addEventListener('click', profileCopyInput);
 
 //   buttonOpenPopup.addEventListener("click", popupToggle);
 //   buttonClosePopup.addEventListener("click", popupToggle);
-
