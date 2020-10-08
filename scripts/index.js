@@ -7,12 +7,6 @@ let newJob = document.querySelector('.profile__subtitle');
 let nameInput = document.querySelector('.popup__input-text_type_name');
 let jobInput = document.querySelector('.popup__input-text_type_job');
 
-function profileCopyInput() {
-  nameInput.value = newName.textContent;
-  jobInput.value = newJob.textContent;
-  popupOpen()
-}
-
 const popupOpen = function() {
   popup.classList.add("popup_is-opened");
 };
@@ -20,6 +14,12 @@ const popupOpen = function() {
 const popupClose = function() {
   popup.classList.remove("popup_is-opened");
 };
+
+function profileCopyInput() {
+  nameInput.value = newName.textContent;
+  jobInput.value = newJob.textContent;
+  popupOpen();
+}
 
 function formSubmitHandler (evt) {
   evt.preventDefault();

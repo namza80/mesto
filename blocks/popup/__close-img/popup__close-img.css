@@ -1,7 +1,8 @@
 .popup__close-img {
   position: absolute;
-  top: -20px;
-  right: -20px;
+  height: 35px;
+  top: -35px;
+  right: -35px;
   transition: 0.4s;
 }
 
@@ -12,7 +13,8 @@
 
 @media (max-width: 470px) {
 	.popup__close-img {
-    top: -40px;
+    height: 23px;
+    top: -43px;
     right: 0;
   }
 }
