@@ -20,21 +20,21 @@
             <div class="profile__desc">
               <div class="profile__name-edit">
                 <h1 class="profile__title">Жак-Ив Кусто</h1>
-                <button type="button" class="profile__edit-btn profile_btn-open">
+                <button type="button" class="profile__edit-btn profile_btn-open-edit">
                 <img src="./images/icon-edit.svg" alt="Редактирование профиля" class="profile__icon-edit">
                 </button>
               </div>
               <p class="profile__subtitle">Исследователь океана</p>
             </div>
           </div>
-          <button type="button" class="profile__add-button profile_btn-open">
+          <button type="button" class="profile__add-btn profile_btn-open-add">
           <img src="./images/icon-add.svg" alt="Добавление карточки" class="profile__icon-add">
           </button>
         </section>
 
         <section class="elements">
           <ul class="elements__lst">
-            <li>
+            <!-- <li>
               <img src="./images/elements/dombay.jpg" alt="Домбай" class="elements__item">
               <div class="elements__caption">
                 <h2 class="elements__caption-ellipsis">
@@ -99,7 +99,7 @@
                 <img src="./images/icon-heart.svg" alt="Лайк" class="elements__like">
                 </button>
               </div>
-            </li>
+            </li> -->
           </ul>
         </section>
       </main>
@@ -112,10 +112,10 @@
           <img src="./images/icon-close.svg" alt="Иконка закрытия" class="popup__close-img">
           </button>
           <h2 class="popup__title">Редактировать профиль</h2>
-          <form name="popup-form" class="popup__input">
+          <form name="popup-form" class="popup__input popup__input_edit">
             <input name="popup-input" type="text" value="" class="popup__input-text popup__input-text_type_name">
             <input name="popup-input" type="text" value="" class="popup__input-text popup__input-text_type_job">
-            <button type="submit" class="popup__input-btn popup__input-btn_action_add">Сохранить</button>
+            <button type="submit" class="popup__input-btn popup__input-btn_action_edit">Сохранить</button>
           </form>
         </div>
       </section>
@@ -126,16 +126,16 @@
           <img src="./images/icon-close.svg" alt="Иконка закрытия" class="popup__close-img">
           </button>
           <h2 class="popup__title">Новое место</h2>
-          <form name="popup-form" class="popup__input">
-            <input name="popup-input" type="text" value="Название" class="popup__input-text popup__input-add_type_hdg">
-            <input name="popup-input" type="text" value="Ссылка на картинку" class="popup__input-text popup__input-add_type_url">
+          <form name="popup-form" class="popup__input popup__input_add">
+            <input placeholder="Название" type="text" class="popup__input-text popup__input-add_type_text">
+            <input placeholder="Ссылка на картинку" type="text" class="popup__input-text popup__input-add_type_url">
             <button type="submit" class="popup__input-btn popup__input-btn_action_add">Создать</button>
           </form>
         </div>
       </section>
     </div>
 
-    <template id="element-clone">
+    <template id="element-clone" class="element-clone">
       <li>
       <img alt="" class="elements__item">
       <div class="elements__caption">
